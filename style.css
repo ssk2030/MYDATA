@@ -1,0 +1,380 @@
+/*
+Theme Name: Test
+Theme URI: https://wordpress.org/themes/twentyfifteen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+*/
+.tmp-home{
+	background-color: #f4f5f9;
+}
+.menu{
+	background: #f4f5f9;
+}
+.logo {
+	float: left;
+	padding: 20px;
+	width: 20%;
+}
+.search{
+	margin-top: 16px;
+	float: left;
+	width: 50%;
+}
+
+.chucnang {
+	/*width: 30%;*/
+	float: right;
+	list-style: none;
+}
+.chucnang li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+
+}
+.chucnang-ul{
+	margin-bottom: 0;
+}
+.chucnang a{
+	color: #6a6a6a;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.button{
+	padding: 15px 20px;
+	border: none;
+	color: black;
+	background-color: white;
+;
+}
+.slider-item{
+	position: relative;
+}
+.content{
+position: absolute;
+color: white;
+padding-top: 120px;
+padding-left: 120px;
+}
+.bx-wrapper img{
+	width: 100%;
+	height: 15%;
+
+}
+.bx-wrapper{
+	border: none;
+}
+.product{
+	background: #FFFFFF;
+	position: relative;
+	min-height: 312px;
+	/*min-width: 233px;*/
+
+}
+.product img.attachment-full.size-full {
+	margin: 0 auto;
+}
+.product-column{
+	 padding: 0 4px;
+	 float: left;
+	 /*width: 20%;*/
+}
+/*.popular, .featured{*/
+	/*display: flex;*/
+	/*!*padding: 10px;*!*/
+	/*position: relative;*/
+	/*flex-direction: row;*/
+
+/*}*/
+.product-image{
+	position: absolute;
+	top: 40px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.product-price {
+	position: absolute;
+	bottom: 25px;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	width: 100%;
+}
+.product-name{
+	font-weight: bold;
+	position: absolute;
+	bottom: 96px;
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+}
+.product-des{
+	position: absolute;
+	top: 215px;
+
+	color: #989898;
+	text-align: center;
+}
+.product-image-f{
+	position: absolute;
+	width: 100%;
+	top:25px;
+	height: 112px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+.product-name-f{
+	font-weight: bold;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 122px;
+}
+.product-price-f {
+	position: absolute;
+	bottom: 25px;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	width: 100%;
+}
+.product-des-f{
+	position: absolute;
+	top: 200px;
+	color: #989898;
+	width: 100%;
+	text-align: center;
+}
+.sale{
+	background-position: left;
+	background-size: cover;
+	/*height: 460px;*/
+}
+
+.khunggio {
+	padding: 125px 0;
+	color: white;
+	text-align: center;
+}
+.deals-column{
+	padding: 40px 4px;
+	float: left;
+}
+.container-fluid-deals{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.arrow{
+	position: relative;
+}
+.popular button.slick-prev.slick-arrow {
+	position: absolute;
+	top: -26px;
+	left: 93%;
+
+}
+.popular button.slick-next.slick-arrow {
+	position: absolute;
+	top: -26px;
+	right: 10px;
+
+}
+.featured button.slick-prev.slick-arrow {
+	position: absolute;
+	top: -26px;
+	left: 93%;
+
+}
+.featured button.slick-next.slick-arrow {
+	position: absolute;
+	top: -26px;
+	right: 10px;
+}
+.slick-prev:before, .slick-next:before{
+	color: #afadad;
+}
+banner img.attachment-full.size-full {
+	width: 100%;
+}
+.banner{
+	padding-left: 0;
+	padding-right: 0;
+}
+.list-unstyled a{
+	color: #333;
+
+}
+.list-unstyled a:hover{
+	color: #333;
+
+}
+.text-uppercase{
+	font-weight: bold;
+}
+.submit{
+padding: 8px 18px;
+border: none;
+border-radius: 0;
+background-color: #565353;
+color: white;
+}
+.txtemail{
+	padding: 6px 10px;
+	margin-bottom: 10px;
+}
+.lorem{
+	padding-top: 10px;
+}
+.bx-viewport{
+	height: 400px !important;
+	border-right: 4px;
+}
+.bx-wrapper img {
+	width: 100%;
+	height: 400px;
+}
+@media screen and (max-width: 1200px) {
+	.chucnang li {
+		padding: 20px 10px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.khunggio{
+		padding: 0;
+	}
+	.search{
+		width: 40%;
+	}
+	.chucnang li {
+		padding: 20px 10px;
+	}
+	.product-image{
+		top: 28px;
+	}
+	.product-des{
+		top: 210px;
+	}
+	.product-price{
+		bottom: 18px;
+	}
+	.product-des-f{
+		top: 200px;
+	}
+	.col-md-4 img.attachment-full.size-full{
+		width: 100%;
+	}
+}
+/*@media screen and (max-width: 768px) {*/
+	/*.chucnang{*/
+		/*float: none;*/
+	/*}*/
+	/*.search{*/
+		/*width: 40%;*/
+	/*}*/
+	/*.chucnang li {*/
+		/*padding: 20px 10px;*/
+	/*}*/
+/*}*/
+/*@media screen and (max-width: 576px) {*/
+	/*.chucnang{*/
+		/*float: none;*/
+	/*}*/
+	/*.chucnang-ul{*/
+		/*padding-left: 0;*/
+		/*text-align: center;*/
+	/*}*/
+	/*.logo{*/
+		/*float: none;*/
+		/*margin: 20px auto;*/
+		/*!*margin-top: 20px;*!*/
+		/*!*margin-bottom: 20px;*!*/
+		/*padding: 0;*/
+	/*}*/
+	/*.search{*/
+		/*margin-top: 0;*/
+		/*width: 100%;*/
+		/*display: block;*/
+	/*}*/
+	/*.chucnang li {*/
+		/*padding: 20px 20px;*/
+	/*}*/
+/*}*/
+@media screen and (max-width: 768px) {
+	.chucnang{
+		float: none;
+	}
+	.chucnang-ul{
+		padding-left: 0;
+		text-align: center;
+
+	}
+	.logo{
+		width: 100%;
+		text-align: center;
+		float: none;
+		margin: 20px auto;
+		/*margin-top: 20px;*/
+		/*margin-bottom: 20px;*/
+		padding: 0;
+	}
+	.search{
+		margin-top: 0;
+		width: 100%;
+		display: block;
+	}
+	.chucnang li {
+		padding: 20px 20px;
+	}
+	.content{
+		padding-left: 70px;
+	}
+}
+.slick-prev:before {
+	content: "\f104";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	border-radius: 50%;
+	font-size: 22px;
+	padding: 2px 10px;
+	background: #d9dcd6;
+	color: #676965;
+}
+.slick-next:before {
+	content: "\f105";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	border-radius: 50%;
+	font-size: 22px;
+	padding: 2px 10px;
+	background: #d9dcd6;
+	color: #676965;
+}
+button.btn.btn-default {
+	border: none;
+	padding: 10px 14px;
+	border-radius: 0;
+}
+input.form-control {
+	border: none;
+	border-radius: 0;
+	padding: 20px 0;
+	padding-left: 25px;
+}
